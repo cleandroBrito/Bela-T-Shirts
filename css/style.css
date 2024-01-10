@@ -1,0 +1,88 @@
+/* formatações padrões */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    background-image: url(../img/fundo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* formantando o conatiner */
+#container{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#caixa{
+    width: 100%;
+}
+
+#logo img {
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 280px;
+}
+
+#conteudo h1{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+#conteudo h2{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+#titulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vendedor{
+    width: 500px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    padding: 10px;
+
+}
+
+.vendedor img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+#instagran{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#instagran img{
+    width: 30px;
+    margin-left: 20px;
+}
